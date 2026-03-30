@@ -8,9 +8,9 @@ else
 echo "$2 installation success......"
 fi
 }
-install dnf nginx -y
+ dnf install nginx -y
 validate $? "Installing nginx......"
-install dnf mysql -y
+dnf install mysql -y
 validate $? "Installingmysql.........."
-install dnf nodejs -y
+dnf install nodejs -y
 validate $? "Installing nodejs......."
